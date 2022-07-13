@@ -1,0 +1,210 @@
+.createcontainer{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subcontainer{
+    width: 90%;
+    max-width: 75%;
+    /* background-color: rgb(27, 19, 19); */
+    border-radius: 8px;
+    border: 0.5px solid rgb(194, 191, 191);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   gap: 8px;
+}
+.fields{
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid black;
+}
+.alertmessg{
+    background-color: rgb(245, 90, 90);
+    color: rgb(9, 8, 8);
+    border: 2px solid red;
+}
+.message{
+    background-color: rgb(161, 237, 212);
+    color: black;
+}
+.inputfield{
+    width: 100%;
+    padding: 4px 2px 4px 2px;
+    border: 1px solid rgb(209 213 219);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 0.375rem;
+
+}
+.fastfood{
+    font-size: 1.25rem;
+    color: rgb(55 65 81);
+}
+.inputbox{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background-color: transparent;
+    /* font-weight: 600; */
+    outline: none;
+    border: none;
+    color: #515151;
+    padding: 8px;
+    
+}
+.category{
+    width: 100%;
+}
+.categoryselection{
+    outline: none;
+    width: 100%;
+    border-bottom: 4px;
+    padding: 10px;
+    border-color: rgb(229 231 235);
+    border-radius: 0.375rem;
+    cursor: pointer;
+   
+}
+.categoryOption{
+    background-color: white;
+    
+}
+.optionfromdata{
+    outline: none;
+    border-width: 0px;
+    text-transform: capitalize;
+    background-color: white;
+    color: #515151;
+}
+.loadercomponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: rgb(209 213 219);
+    width: 100%;
+    height: 420px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.labelforasset{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.divisionforasset{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.divisionforasset p{
+    color: rgb(107 114 128);
+}
+.divisionforasset p:hover{
+    color: rgb(55 65 81);
+}
+.divisionforasset input{
+    width: 0px;
+    height: 0px;
+}
+.cloudupload{
+    color: rgb(107 114 128);
+    font-size: 30px;
+}
+.cloudupload:hover{
+    color: rgb(55 65 81);
+}
+.assetimage{
+    position: relative;
+    height: 100%;
+}
+.assetimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.assetimage button{
+    padding: 12px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 9999px;
+    background-color: rgb(237, 132, 132);
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all 500ms ease-in-out;
+}
+.assetimage button:hover{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.foodbankdivision{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+
+}
+.subfoodbank{
+    width: 100%;
+    padding: 10px 15px;
+    border-bottom-width: 1px;
+    border-color: rgb(209 213 219);
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.mdfoodbank{
+   font-size: 24px;
+   color: rgb(55 65 81);
+}
+.subfoodbank input{ 
+  width: 100%;
+  height: 100%;
+  color: #515151;
+  font-size: 1.125rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.buttonforsavingitem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: white; */
+}
+.buttonforsavingitem button{
+    margin-left: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color: rgb(151, 54, 184);
+    padding: 12px 48px ;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    
+}

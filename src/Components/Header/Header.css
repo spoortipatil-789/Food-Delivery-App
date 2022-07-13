@@ -1,0 +1,134 @@
+.header{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+   
+    padding: 25px;
+}
+.content{
+    display: flex;
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+}
+.logo img{
+    object-fit: cover;
+    width: auto;
+    height: 45px;
+}
+.logo p{
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+.navbarcontent{
+    display: flex;
+    gap: 14px;
+}
+
+.navbar{
+  display: flex;
+  list-style: none;
+  gap: 8;
+}
+.navbar li{
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #515151;
+    
+}
+.navbar li:hover{
+  color: #2e2e2e;
+  animation-duration: 100;
+  transition: all ease-in-out;
+}
+.carticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.iconimg{
+    color: #2e2e2e;
+    font-size: 32px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.cartcontent{
+    position: absolute;
+    top:-2px;
+    right: -4px;
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartcontent p{
+    color: white;
+    font-weight: 700;
+}
+.userprofile{
+    margin-left: 10px;
+    width: 50px;
+    min-width: 40px;
+    min-height: 40px;
+    height: 50px;
+    /* box-shadow: 0 25px 50px -50px rgb(0, 0, 0); */
+    cursor: pointer;
+}
+.userprofilecontent{
+    position: relative;
+}
+.navbarcontent img{
+    transition: all 0.25 ease-in-out;
+    border-radius: 50%;
+ }
+ /* .navbarcontent img:hover{
+     transform: scale(0.80);
+ } */
+ .navbarcontent img:active{
+    transform: scale(0.6);
+ }
+
+
+ .menu {
+    width: 160px;
+    background-color:#fbf7f7 ;
+    box-shadow: 0 10px 15px -5px rgb(0,0,0);
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+   
+ }
+
+ .menu p{
+     /* padding-left: 16px; */
+     padding: 4px;
+     display: flex;
+     align-items: center;
+     gap: 10px ;
+     cursor: pointer;
+     transition: all 100ms ease-in-out;
+     color: #515151;
+ }
+ .menu p:hover{
+   background-color: rgb(230, 226, 220);
+   border-radius: 5px;
+ }
