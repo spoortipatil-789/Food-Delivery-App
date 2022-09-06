@@ -1,0 +1,96 @@
+
+.menusection{
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+ 
+}
+.menucontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.hotdishes{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    color: #2d2b2b;
+    margin-left:-82rem;
+   
+}
+.menucontainerfordishes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    overflow-x: scroll;
+ 
+   overflow: hidden;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   
+}
+.menudishes{
+    background-color: white;
+    width: 95px;
+    min-width: 99px;
+    height: 112px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items:center ;
+    justify-content: center;
+    transition: all 90ms ease-in-out;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+
+    
+}
+.menudishes:active{
+    transform: scale(0.8);
+}
+.menudishes:hover{
+    background-color: rgb(237, 58, 58);
+}
+.categoryname{
+    font-size: 15px;
+    font-weight: 600;
+}
+.menudishes p:hover{
+    color: white;
+}
+.dishes{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(238, 62, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.dishes:hover{
+    background-color: aliceblue;
+} 
+.menudishesactice{
+    background-color: red;
+}
+.activeiconforcategory{
+   color: white;
+}
+.activeicon{
+    background-color: white;
+}
+
+
+
+.menudisheslist{
+    width: 100%;
+}

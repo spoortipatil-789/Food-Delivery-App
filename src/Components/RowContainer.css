@@ -1,0 +1,101 @@
+.rowcontainer{
+    width: 100%;
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+    gap:  3px;
+    /* background-color: rgb(245, 239, 239);  */
+}
+.x-row{
+    overflow-x: scroll;
+    overflow: hidden;
+}
+.y-row{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fruitsdetails{
+    min-width: 340px;
+    width: 340px;
+    height: 250px;
+    padding-left: 15px;
+    padding-right: 25px;
+    backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border-radius: 10px;
+    background-color: rgb(250, 245, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.fruitsdetails:hover{
+    background-color: rgb(244, 237, 237);
+}
+.imageofitem{
+    width: 100%;
+    /* height: 190px; */
+    display: flex;
+    /* height: auto; */
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.filteredimage{
+    width: 160px;
+    height: 160px;
+    transition: all 100ms ease-in-out;
+}
+.filteredimage img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: contain;
+    /* height: 160px; */
+    
+}
+.filteredimage img:hover{
+    transform: scale(0.9);
+}
+
+.carticons{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgb(236, 44, 44);
+    /* margin-right: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+}
+.carticons:active {
+  transform: scale(0.90);
+}
+.detailsofimage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+
+}
+#imagetitle{
+    color: #515151;
+    font-weight: 600;
+    font-size: 24px;
+}
+#imagecalory{
+   font-size: 14px;
+   margin-top: 2px;
+   color: #515151;
+   font-weight: 600;
+}
+.detailsofimage{
+    font-weight: bold;
+}

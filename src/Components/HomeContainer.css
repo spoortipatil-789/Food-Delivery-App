@@ -1,0 +1,148 @@
+.homecontainer{
+    display: grid;
+    grid-template-columns: repeat(2,  minmax(0, 1fr));
+    padding-top: 20px;
+    padding-left: 5px;
+    gap: 20px;
+    width: 100%;
+    height: 80vh;
+    
+}
+.homecontainer-item1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+/* .maincontainer-item1 p{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    color: rgb(73, 69, 69);
+} */
+
+.subcontainer-item1{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+  
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.subcontainer-item1 p{
+    font-size: 23px;
+    font-weight: 600;
+    color:orange;
+  
+}
+.deliveryimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+}
+.deliveryimg img{
+    width: 40px;
+    object-fit: contain;
+}
+#deliverypara{
+    font-weight: bold;
+    color: #2f2d2d;
+    font-size: 3.5rem;
+    text-align: left;
+    letter-spacing: 0.035em;
+    
+}
+#deliverysentence{
+    color: #252323;
+    font-size: 19px;
+    text-align: left;
+    width: 80%;
+}
+.orderbutton{
+    background-color: rgb(255, 132, 0);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+
+    width: auto;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+}
+.orderbutton:hover{
+  
+    transform: scale(0.90);
+}
+
+
+.homecontainer-item2{
+    flex:1;
+  display: flex; 
+   align-items: center;
+   position: relative;
+}
+
+.homecontainer-item2 img{
+    height: 600px;
+    margin-left: 350px;
+    width: auto;
+    margin-left: auto;
+    height: 420px;
+}
+
+.subcontainer-item2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    padding: 16px 128px 16px 128px;
+    flex-wrap: wrap;
+    gap: 4px;
+    min-width: 190px;
+}
+.subcontaineritems {
+   width: 160px;
+   padding: 10px;
+   height: 160px;
+   background-color: rgba(256,256,256, 0.4);
+   backdrop-filter: blur(12px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-radius: 20px;
+  margin: 30px;
+  
+   
+   flex-wrap: wrap;
+}
+.subcontaineritems img{
+    width: 150px;
+   margin-top: -70px;
+   height: 130px;
+  
+}
+#icecream{
+    font-weight: 600;
+    color: #515151;
+}
+#chocolate{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(136, 141, 149);
+}
+#rupee{
+    font-size: 14px;
+    font-weight: 600;
+    color: #515151;
+}
